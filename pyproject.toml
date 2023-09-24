@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flet-basics"
+version = "0.1.0"
+description = "Basic experiments with the flet framework"
+authors = ["Fausto A. Ramos <fausto.ramosr92@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flet_basics"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flet = "^0.10.2"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
